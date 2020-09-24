@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Roll Die",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testRollDie",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Sum of Two Dice",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testSumOfTwoDice",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    }
+  ]
+}
